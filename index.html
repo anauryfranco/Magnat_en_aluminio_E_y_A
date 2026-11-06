@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carpintería en Aluminio & Vidrio - Catálogo & Cotizaciones</title>
+  <style>
+    /* Estilos Generales */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f1f5f9;
+      color: #1e293b;
+      padding-bottom: 90px;
+    }
+
+    /* Encabezado Principal */
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      text-align: center;
+      padding: 50px 20px;
+      border-bottom: 4px solid #0284c7;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #38bdf8;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      color: #94a3b8;
+    }
+
+    /* Contenedor Principal */
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      color: #0f172a;
+      margin: 35px 0 15px 0;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #0284c7;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Grid de Productos y Servicios */
+    .catalog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 10px;
+      border: 1px solid #e2e8f0;
+      overflow: hidden;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+
+    .card-description {
+      font-size: 0.92rem;
+      color: #64748b;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 20px;
+      background-color: #f8fafc;
+      border-top: 1px solid #f1f5f9;
+    }
+
+    .badge {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #0284c7;
+      background-color: #e0f2fe;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    .btn-quote {
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+
+    .btn-quote:hover {
+      background-color: #1ebd56;
+    }
+
+    /* Botón Flotante General de WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50px;
+      padding: 14px 22px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.95rem;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      z-index: 1000;
+      transition: transform 0.2s;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.05);
+      background-color: #1ebd56;
+    }
+
+    /* Pie de página */
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      color: #94a3b8;
+      font-size: 0.85rem;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Taller de Carpintería en Aluminio & Vidrio</h1>
+    <p>Diseño, fabricación e instalación a medida • Cotizaciones sin compromiso</p>
+  </header>
+
+  <main class="container">
+
+    <!-- SECCIÓN VENTANAS -->
+    <h2 class="section-title">🪟 Ventanas de Aluminio</h2>
+    <div class="catalog-grid">
+      
+      <article class="card">
+        <div class="card-content">
+          <h3 class="card-title">Ventanas Correderas (P40 / P65)</h3>
+          <p class="card-description">Sistema de hojas corredizas de 2 y 3 rieles. Ideal para residencias, apartamentos y oficinas. Diseñadas para alta durabilidad y suave deslizamiento.</p>
+        </div>
+        <div class="card-footer">
+          <span class="badge">A Medida</span>
+          <a href="https://wa.me/18090000000?text=Hola,%20me%20interesa%20una%20cotizaci%C3%B3n%20para%20Ventanas%20Correderas" class="btn-quote" target="_blank">Cotizar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-content">
+          <h3 class="card-title">Ventanas Comerciales & Salomónicas</h3>
+          <p class="card-description">Instalación de perfiles pesados para comercios, ventanales panorámicos de vidrio templado y sistemas de celosías tradicionales.</p>
+        </div>
+        <div class="card-footer">
+          <span class="badge">A Medida</span>
+          <a href="https://wa.me/18090000000?text=Hola,%20quisiera%20cotizar%20ventanas%20comerciales%20/%20panor%C3%A1micas" class="btn-quote" target="_blank">Cotizar</a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- SECCIÓN PUERTAS Y PUERTAS DE BAÑO -->
+    <h2 class="section-title">🚪 Puertas & Cancelas de Baño</h2>
+    <div class="catalog-grid">
+      
+      <article class="card">
+        <div class="card-content">
+          <h3 class="card-title">Puertas Correderas Europeas</h3>
+          <p class="card-description">Puertas de cristal templado y perfiles reforzados en aluminio para balcones, patios y accesos principales. Excelente aislamiento y estética moderna.</p>
+        </div>
+        <div class="card-footer">
+          <span class="badge">A Medida</span>
+          <a href="https://wa.me/18090000000?text=Hola,%20quiero%20cotizar%20una%20Puerta%20Corredera%20de%20Aluminio" class="btn-quote" target="_blank">Cotizar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-content">
+          <h3 class="card-title">Puertas de Baño (Cabinas / Canceles)</h3>
+          <p class="card-description">Diseños en vidrio templado esmerilado o claro con herrajes de acero inoxidable y perfiles de aluminio resistentes a la humedad constante.</p>
+        </div>
+        <div class="card-footer">
+          <span class="badge">A Medida</span>
+          <a href="https://wa.me/18090000000?text=Hola,%20quisiera%20cotizar%20una%20Puerta%20de%20Ba%C3%B1o" class="btn-quote" target="_blank">Cotizar</a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- SECCIÓN GABINETES Y MOBILIARIO -->
+    <h2 class="section-title">🗄️ Gabinetes, Cocinas & Vestidores</h2>
+    <div class="catalog-grid">
+      
+      <article class="card">
+        <div class="card-content">
+          <h3 class="card-title">Gabinetes & Módulos de Cocina</h3>
+          <p class="card-description">Gabinetes aéreos y de piso fabricados en estructura de aluminio o tableros hidrófugiados (MDF/MDP). Alta resistencia contra humedad, grasa y plagas.</p>
+        </div>
+        <div class="card-footer">
+          <span class="badge">A Medida</span>
+          <a href="https://wa.me/18090000000?text=Hola,%20necesito%20una%20cotizaci%C3%B3n%20para%20Gabinetes%20de%20Cocina" class="btn-quote" target="_blank">Cotizar</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-content">
+          <h3 class="card-title">Vitrinas, Closet & Cómodas</h3>
+          <p class="card-description">Muebles de exhibición para locales comerciales, closets modulares y dressers personalizados combinando estructuras de aluminio, espejo y vidrio.</p>
+        </div>
+        <div class="card-footer">
+          <span class="badge">A Medida</span>
+          <a href="https://wa.me/18493416063?text=Hola,%20me%20gustar%C3%ADa%20cotizar%20una%20vitrina%20o%20mueble%20a%20medida" class="btn-quote" target="_blank">Cotizar</a>
+        </div>
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- Botón Flotante de WhatsApp -->
+  <a href="https://wa.me/18493416063?text=Hola,%20quisiera%20solicitar%20un%20presupuesto%20/20cotizaci%C3%B3n%20para%20mi%20proyecto" class="whatsapp-float" target="_blank">
+    💬 Solicitar Cotización
+  </a>
+
+  <footer>
+    <p>&copy; 2026 - Soluciones Industriales en Aluminio y Vidrio. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
